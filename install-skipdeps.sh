@@ -34,7 +34,7 @@ ARCH=$(uname -m)
 echo "Detected : $OS  $VER  $ARCH"
 
 cd /root
-wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.13.zip -qO XUI_1.5.13.zip >/dev/null 2>&1
-unzip XUI_1.5.13.zip >/dev/null 2>&1
-wget https://raw.githubusercontent.com/tonebiclas/xui.one/master/install.python3 -qO /root/install.python3 >/dev/null 2>&1
+wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.13.zip -qO XUI_1.5.13.zip
+unzip XUI_1.5.13.zip
+wget https://raw.githubusercontent.com/tonebiclas/xui.one/master/install.python3 -qO /root/install.python3 
 python3 /root/install.python3
