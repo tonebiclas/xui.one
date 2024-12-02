@@ -32,7 +32,7 @@ elif [ -f /etc/os-release ]; then
 fi
 ARCH=$(uname -m)
 echo "Detected : $OS  $VER  $ARCH"
-
+echo "Installing..."
 cd /root
 wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.13.zip -qO XUI_1.5.13.zip
 unzip XUI_1.5.13.zip
